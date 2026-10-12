@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtSuaTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sửa tên công việc" />
+
+    <EditText
+        android:id="@+id/edtSuaMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sửa mô tả công việc"
+        android:minLines="3" />
+
+    <!-- Thêm CheckBox cho trạng thái hoàn thành (Câu 5) -->
+    <CheckBox
+        android:id="@+id/chkTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã hoàn thành"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lưu" />
+
+</LinearLayout>
